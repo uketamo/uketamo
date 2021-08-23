@@ -11,7 +11,8 @@ slate grey = #939EAE
 
 body {
   margin: 75px;
- ;
+  margin-top: 150px;
+  margin-bottom: 150px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Roboto Mono";
   font-size: 20px;
   line-height: 150%;
@@ -42,14 +43,22 @@ audio {
 }
 
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 0px;
+/* h1 { position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 28px;
+  color: #939EAE;
+  text-align: left;
+} */
+
+h1 { margin-left: 10px;
   font-size: 28px;
   color: #939EAE;
   text-align: left;
 }
+
+
 table {margin-top: 20px;
-      float: center;}
+      float: center;
+    }
 
