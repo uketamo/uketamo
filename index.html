@@ -2,41 +2,59 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Personal Web Page</title>
+  <title>yo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <h1>Andrew Su</h1>
-  <img src = "http://lorempixel.com/1000/500/">
+  <!--EXAMPLE<img src = "http://lorempixel.com/1000/500/">-->
+  <img src = "lofigirl.gif" id = "lofigirl">
+
   <br>
-  <a>
+  <p>
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper mi in orci lobortis, eget egestas risus vulputate. 
-    <br>
     Ut dignissim est sed mi luctus, lacinia aliquet dolor dapibus. Quisque fringilla, urna et porttitor vehicula, sapien dolor interdum ex, 
-    <br>
     vel egestas risus odio a nulla. Ut in odio lectus. Proin tempus augue sem, ut fermentum massa facilisis non. Proin tortor quam, ornare 
-    <br>
     at interdum et, accumsan et ipsum. Integer mollis velit sed mauris consequat viverra.
-    <br>
-    <br>
-    Suspendisse eget semper tellus, ac finibus justo. Mauris in justo imperdiet, interdum tellus vel, sagittis velit. Morbi ornare ac quam vitae 
-    <br>
+    <br><br>
+    Suspendisse eget semper tellus, ac finibus justo. Mauris in justo imperdiet, interdum tellus vel, sagittis velit. Morbi ornare ac quam vitae    
     maximus. Duis massa dui, scelerisque eget dapibus a, scelerisque at libero. Vestibulum tempor nibh facilisis, dictum ipsum sed, fringilla erat. 
-    <br>
     Sed blandit tincidunt magna eget blandit. Donec euismod vulputate metus, sit amet euismod turpis venenatis sed. In eu tincidunt lectus. Sed in 
-    <br>
     orci vitae nisi porttitor consectetur. Aliquam id diam id sem placerat fermentum. In placerat dui mi, vitae luctus diam lacinia a. Praesent 
-    <br>
-    lacus nulla, vehicula sed efficitur eget, aliquet eget leo. </a>
-  <h2>Contact Info</h2>
-  <ul>
-    <li><a href = "https://www.instagram.com">instagram</a></li>
-    <li> <a href = "https://www.twitter.com">twitter</a></li>
-    <li> <a href = "https://www.linkedin.com/in/adsu/">linkedin</a></li>
+    lacus nulla, vehicula sed efficitur eget, aliquet eget leo. </p>
+ 
+  <!-- icons are from https://iconmonstr.com/-->
+   <a href = "https://steamcommunity.com/id/asoju/" target = "_blank"><img src = "steam48px.png" alt = "steam"></a>
+   <a href = "https://open.spotify.com/playlist/3FEayFDmdVBQofuwF6gqE4?si=046e037855e74ab1" target = "_blank"><img src = "spotify48px.png" alt = "spotify"></a>
+   <a href = "https://www.instagram.com/ndrewsu" target = "_blank"><img src = "instagram48px.png" alt = "instagram"></a>
+   <a href = "https://www.linkedin.com/in/adsu/" target = "_blank"><img src = "linkedin48px.png" alt = "linkedin"></a>
+   <a href = "https://github.com/isoju" target = "_blank"><img src = "github48px.png" alt = "github"></a>
+    
+  <!-- NO VOLUME MIXER IN EMBED FOR SPOTIFY :( 
+  <iframe src="https://open.spotify.com/embed/playlist/3FEayFDmdVBQofuwF6gqE4?theme=0" 
+  width="100%" height="380" frameBorder="0" 
+  allowtransparency="true" allow="encrypted-media" id = "spotify"></iframe> -->
+    
 
-  
-  </ul>
+  <!--having problems with embed audio and autoplay-->
+  <!--<iframe src = "Sternbilder.mp3" allow = "autoplay" style = "display:none" class = "lofi"></iframe>
+  <audio autoplay loop class = "lofi">
+    <source src = "Sternbilder.mp3">
+    <embed src = "Sternbilder.mp3" loop = "true" hidden = "true" autostart = "true" mastersound>
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio>-->
+  <audio src = "Sternbilder.mp3" controls id = "lofi"></audio>
+
+      <script>
+          var audio = document.getElementById("lofi");
+           audio.volume = 0.03;
+          audio.autoplay = true; 
+       </script>
+
+
+
     <table border = "1">
       <thead>
         <tr>

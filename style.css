@@ -1,0 +1,53 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+/* colors to use
+purple = #C5B4E3
+light grey = #ABABAB
+slate grey = #939EAE 
+*/
+
+body {
+  margin: 75px;
+ ;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #939EAE;
+  background: #525252;
+ ;
+}
+
+#lofigirl{ 
+  float:right;
+  margin-left: 30px;
+}
+
+a {
+  margin: 10px;
+}
+
+p {
+  text-align: justify;
+
+ }
+
+audio {
+  margin-left: 20px;
+
+
+}
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+table{text-align: center;
+      -moz-box-align: center;}
