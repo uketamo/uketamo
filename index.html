@@ -10,7 +10,7 @@
   <h1>Andrew Su</h1>
   <!--EXAMPLE<img src = "http://lorempixel.com/1000/500/">-->
   <img src = "Images/lofigirl.gif" id = "lofigirl">
-
+  <img src = "Images/psyduck.gif" id = "psyduck">
   <br>
   <p>
 
@@ -45,13 +45,18 @@
     <embed src = "Sternbilder.mp3" loop = "true" hidden = "true" autostart = "true" mastersound>
     <p>If you are reading this, it is because your browser does not support the audio element.</p>
   </audio>-->
-  <audio src = "Audio/Sternbilder.mp3" controls id = "lofi"></audio>
+
+  <!-- <embed name = "playlist" src = "/Audio/Dreamscapes.m3u" width = "300" height = "90" loop = "true" hidden = "false" autostart = "true" id = "lofi"></embed> -->
+  
+  <audio src = "/Audio/Growing Up.mp3" controls loop = true autostart= true id = "lofi"></audio>
+  
 
       <script>
           var audio = document.getElementById("lofi");
            audio.volume = 0.03;
           audio.autoplay = true; 
        </script>
+
 
 
 

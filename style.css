@@ -21,9 +21,25 @@ body {
  ;
 }
 
+/* how to make a gif into background */
+/* body { background-image:url('Images/lofigirl.gif'); 
+    background-repeat:repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    height: 100%; width: 100%;} */
+
 #lofigirl{ 
   float:right;
   margin-left: 30px;
+}
+
+#psyduck{
+  position: fixed;
+  top: 15%;
+  left: 60%;
+  width: 5%;
+  height: auto;
+
 }
 
 a {
