@@ -39,7 +39,13 @@ body {
   left: 60%;
   width: 5%;
   height: auto;
+}
 
+#song_credit{
+  position: fixed;
+  top: 70%;
+  left: 65%;
+  font-size: 12px;
 }
 
 a {
@@ -49,13 +55,13 @@ a {
 
 p {
   text-align: justify;
-
  }
 
 audio {
+  position: fixed;
+  left: 60%;
   margin-right: 20px;
-  float: right
-
+  float: right;
 }
 
 
