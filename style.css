@@ -9,6 +9,24 @@ light grey = #ABABAB
 slate grey = #939EAE 
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1920px){ 
 body {
   margin: 5%;
   margin-top: 9%;
@@ -18,6 +36,7 @@ body {
   line-height: 150%;
   color: #939EAE;
   background: #525252;
+  overflow-x: hidden;
   /* width: 100%; */
 }
 
@@ -28,16 +47,18 @@ body {
     background-attachment: fixed; 
     height: 100%; width: 100%;} */
 
-.containertest {
+/* .containertest {
   max-width: 2000px;
   width: 150%;
-}
+} */
     
 #lofigirl{ 
   /* float:right; */
   position: absolute;
   left: 55%;
   margin-left: 2%;
+  height:auto;
+  width:auto;
 }
 
 #psyduck{
@@ -62,7 +83,7 @@ a {
 
 p {
   text-align: justify;
-  width: 47%;
+  width: 55%;
  }
 
 #lofi {
@@ -72,27 +93,27 @@ p {
 
 #steam {
   position: absolute;
-  left: 73%;
+  left: 75%;
 }
 
 #spotify {
   position: absolute;
-  left: 77%;
+  left: 79%;
 }
 
 #instagram {
   position: absolute;
-  left: 81%;
+  left: 83%;
 }
 
 #linkedin{
   position: absolute;
-  left: 85%;
+  left: 87%;
 }
 
 #github {
   position: absolute;
-  left: 89%;
+  left: 91%;
 }
 
 /* h1 { position: absolute;
@@ -110,7 +131,7 @@ h1 { margin-left: 10px;
 }
 
 
-table {margin-top: 20px;
+/* table {margin-top: 20px;
       float: center;
-    }
-
+    } */
+  }
