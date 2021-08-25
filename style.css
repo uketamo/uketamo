@@ -9,53 +9,136 @@ light grey = #ABABAB
 slate grey = #939EAE 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1920px){ 
+  body {
+    margin: 5%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Roboto Mono";
+    font-size: 120%;
+    line-height: 150%;
+    color: #939EAE;
+    background: #525252;
+    overflow-x: hidden;
+    /* width: 100%; */
+  }
+  
+  /* how to make a gif into background */
+  /* body { background-image:url('Images/lofigirl.gif'); 
+      background-repeat:repeat; 
+      background-size: cover; 
+      background-attachment: fixed; 
+      height: 100%; width: 100%;} */
+  
+  /* .containertest {
+    max-width: 2000px;
+    width: 150%;
+  } */
+      
+  #lofigirl{ 
+    /* float:right; */
+    position: absolute;
+    left: 55%;
+    margin-left: 2%;
+    height:auto;
+    width:auto;
+  }
+  
+  #psyduck{
+    position: absolute;
+    top: 17%;
+    left: 60%;
+    width: 5%;
+    height: auto;
+  }
+  
+  #song_credit{
+    position: absolute;
+    top: 73%;
+    left: 63%;
+    font-size: 12px;
+  }
+  
+  a {
+    margin: 10px;
+    float: right;
+  }
+  
+  p {
+    text-align: justify;
+    width: 55%;
+   }
+  
+  #lofi {
+    position: absolute;
+    left: 57%;
+  }
+  
+  #steam {
+    position: absolute;
+    left: 75%;
+  }
+  
+  #spotify {
+    position: absolute;
+    left: 79%;
+  }
+  
+  #instagram {
+    position: absolute;
+    left: 83%;
+  }
+  
+  #linkedin{
+    position: absolute;
+    left: 87%;
+  }
+  
+  #github {
+    position: absolute;
+    left: 91%;
+  }
+  
+  /* h1 { position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 28px;
+    color: #939EAE;
+    text-align: left;
+  } */
+  
+  h1 { margin-left: 10px;
+    font-size: 28px;
+    color: #939EAE;
+    text-align: left;
+  }
+  
+  
+  /* table {margin-top: 20px;
+        float: center;
+      } */
+    }
+
+
+
+
+
+@media (min-width: 2560px){
 body {
   margin: 5%;
   margin-top: 9%;
   margin-bottom: 9%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Roboto Mono";
-  font-size: 120%;
+  font-size: 130%;
   line-height: 150%;
   color: #939EAE;
   background: #525252;
   overflow-x: hidden;
-  /* width: 100%; */
 }
-
-/* how to make a gif into background */
-/* body { background-image:url('Images/lofigirl.gif'); 
-    background-repeat:repeat; 
-    background-size: cover; 
-    background-attachment: fixed; 
-    height: 100%; width: 100%;} */
-
-/* .containertest {
-  max-width: 2000px;
-  width: 150%;
-} */
-    
 #lofigirl{ 
   /* float:right; */
   position: absolute;
-  left: 55%;
+  left: 60%;
   margin-left: 2%;
   height:auto;
   width:auto;
@@ -63,8 +146,8 @@ body {
 
 #psyduck{
   position: absolute;
-  top: 17%;
-  left: 60%;
+  top: 16%;
+  left: 63%;
   width: 5%;
   height: auto;
 }
@@ -76,62 +159,62 @@ body {
   font-size: 12px;
 }
 
-a {
-  margin: 10px;
-  float: right;
-}
-
 p {
   text-align: justify;
   width: 55%;
+  margin-left:5%;
  }
 
 #lofi {
   position: absolute;
-  left: 57%;
+  left: 62%;
+  bottom: 43%;
 }
 
 #steam {
   position: absolute;
   left: 75%;
+  bottom: 42%;
 }
 
 #spotify {
   position: absolute;
-  left: 79%;
+  left: 78%;
+  bottom: 42%;
 }
 
 #instagram {
   position: absolute;
-  left: 83%;
+  left: 81%;
+  bottom: 42%;
 }
 
 #linkedin{
   position: absolute;
-  left: 87%;
+  left: 84%;
+  bottom: 42%;
 }
 
 #github {
   position: absolute;
-  left: 91%;
+  left: 87%;
+  bottom: 42%;
 }
 
-/* h1 { position: absolute;
-  top: 15%;
-  left: 5%;
-  font-size: 28px;
-  color: #939EAE;
-  text-align: left;
-} */
+#song_credit{
+  position: absolute;
+  top: 58%;
+  left: 61%;
+  font-size: 12px;
+}
 
-h1 { margin-left: 10px;
-  font-size: 28px;
+h1 { margin-left: 5%;
+  font-size: 40px;
   color: #939EAE;
   text-align: left;
 }
 
 
-/* table {margin-top: 20px;
-      float: center;
-    } */
-  }
+}
+
+
