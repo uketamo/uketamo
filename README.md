@@ -1,4 +1,4 @@
-### 🍜 Hard working Data Analyst who is eager to learn and to contribute to team success through attention to detail, problem-solving, and excellent organizational skills. Proficient in working both independently and as a team. Avid and passionate gamer. Always willing to try new things. 
+### 🍜 
 
 
 <!--
