@@ -1,5 +1,5 @@
 ### 🍜 
-- 🖥️ [Personal Website](https://isoju.github.io/portfolio/) (Work in Progress)
+- 🖥️ [Personal Website](https://isoju.github.io/portfolio/)
 - 📧 adsu<span></span>@uci.edu
 - 🪟 [LinkedIn](https://www.linkedin.com/in/adsu/)
 
