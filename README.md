@@ -1,7 +1,7 @@
 ### 🍜  
 Data Analyst with a background in Economics and skills in Python, JavaScript, Excel, SQL, and Tableau. Earned a Certificate in Data Visualization and Analytics from the University of California, Irvine Boot Camp. Insatiable determination and attention to detail driven by curiosity and the desire to be successful. Enjoys visualizing data sets via various methods and platforms to provide a well-organized analysis. Recently completed a project in a team of five using data sets from USAjobs and Indeed. Used Python, JavaScript, Flask, Tableau,  and HTML/CSS to display correlations between Data Professional Jobs in the US. Strengths including analytical problem-solving abilities combined with objective decision-making skills, make me a valuable addition to any team. 
 
-- 🖥️ [Personal Website](https://isoju.github.io/portfolio/)
+- 🖥️ [Personal Website](https://7asu.github.io/portfolio/)
 - 📧 adsu<span></span>@uci.edu
 - 🪟 [LinkedIn](https://www.linkedin.com/in/adsu/)
 
