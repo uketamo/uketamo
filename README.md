@@ -3,7 +3,7 @@ Data Analyst with a background in Economics and skills in Python, JavaScript, Ex
 
 - 🖥️ [Personal Website](https://7asu.github.io/portfolio/)
 - 📧 adsu<span></span>@uci.edu
-- 🪟 [LinkedIn](https://www.linkedin.com/in/adsu/)
+- 🪟 [LinkedIn](https://www.linkedin.com/in/asushi/)
 
 
 
